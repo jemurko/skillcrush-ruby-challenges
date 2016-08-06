@@ -50,7 +50,7 @@ class album < Media
       return @forward_artist
     end
 
-  def about_song
+  def about_songg
     return "#{@title} is sung by #{@artist}."
   end
 end
